@@ -24,9 +24,13 @@ int main()
 	num1 = num1 - num2;
 	*/
 
+	/*
 	num1 = num1 * num2;
 	num2 = num1 / num2;
 	num1 = num1 / num2;
+	*/
+
+	num1 = num1 + num2 - (num2 = num1);
 
 	printf("After swap:\n\tnum1 = %d\n\tnum2 = %d\n",num1,num2);
 
